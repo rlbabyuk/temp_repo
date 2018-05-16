@@ -10,3 +10,5 @@ def test_window():
     home.close_active_window()
 
     home.browser.driver.switch_to.window(original_window)
+
+test_window()

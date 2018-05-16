@@ -15,3 +15,5 @@ def test_tab():
     home.close_current_tab()
     # Put focus on current window which will be the window opener
     home.change_active_window(main_window)
+
+test_tab()
